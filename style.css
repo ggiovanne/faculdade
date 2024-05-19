@@ -10,12 +10,13 @@
 body {
   overflow: hidden;
 }
-
+/* Criei uma conf específica para minha foto de perfil*/
 figure.foto-home img {
   width: 10%;
   height: 10%;
 }
 
+/* Criei uma conf de cor pro backgroud, apesar de usar uma imagem por cima, coloquei a posição no centro e o tamanho em 100%*/
 .background {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./img/background.jpg);
@@ -25,6 +26,7 @@ figure.foto-home img {
   height: 100vh;
 }
 
+/* Criei uma configuração de alinhamento para todo o header, alinho no centro, itens no centro, medida para padding, etc*/
 header {
   display: flex;
   justify-content: space-around;
@@ -34,6 +36,7 @@ header {
   padding-top: 1rem;
 }
 
+/* Configuraçao do cabeçalho, tamanho de font, estilo de display*/
 .cabeçalho-link {
   display: flex;
   gap: 3rem;
@@ -51,6 +54,7 @@ header {
   transition: 0.3s all;
 }
 
+/* Conf exclusiva para todos os botões, escolhi a cor, a borda dos botoes, tamanho da fonte, etc*/
 button {
   color: #f2c40a;
   background: transparent;
@@ -62,6 +66,7 @@ button {
   width: 150px;
 }
 
+/* Enfim, tem aqui configurações exclusivas para cada tipo de item, containers, textos, botoes*/
 button:hover {
   background-color: #f2c40a;
   color: #fff;
